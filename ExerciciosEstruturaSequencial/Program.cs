@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace ExeciciosEstruturaSequencial
 {
@@ -13,6 +14,11 @@ namespace ExeciciosEstruturaSequencial
             int n2 = int.Parse(Console.ReadLine());
             Console.WriteLine($"Resultado: {n1 + n2}");
 
+            //Exercicio 02
+            Console.WriteLine("Digite um raio de um circulo:");
+            double raio = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            double pi = 3.14159;
+            Console.WriteLine("Resultado: "+ (pi * Math.Pow(raio, 2.0)).ToString("F4", CultureInfo.InvariantCulture));
         }
     }
 }
