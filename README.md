@@ -1,6 +1,6 @@
 <h1 align="center">Exercicios de Estruturas Sequenciais</h1>
 
-<p align="center">Fiz este repositoria apenas para acompanhar meu desenvolvimento com a linguagem C#</p>
+<p align="center">Fiz este repositorio apenas para acompanhar meu desenvolvimento com a linguagem C#</p>
 
 :point_right: [Link do curso na Udemy](https://www.udemy.com/course/programacao-orientada-a-objetos-csharp/)
 
